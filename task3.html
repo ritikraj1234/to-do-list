@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="task3.css">
+  <title>To-Do List App</title>
+</head>
+<body>
+  <div class="center">
+    <h1>To-Do List</h1>
+    <div class="add-task">
+      <input type="text" id="taskTitle" placeholder="Task Title">
+      <input type="text" id="taskDescription" placeholder="Task Description">
+      <input type="datetime-local" id="dueDateTime">
+      <input type="color" id="taskColor">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="task3.js"></script>
+</body>
+</html>
